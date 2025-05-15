@@ -11,6 +11,21 @@
       color: #333;
       padding: 20px;
     }
+    header {
+      background-color: #1e6b7b;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     h1, h2 {
       color: #1e6b7b;
     }
@@ -28,25 +43,25 @@
       font-style: italic;
       color: #555;
     }
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #1e6b7b;
-    }
-    nav {
-      margin-bottom: 20px;
-    }
   </style>
 </head>
 <body>
 
-  <h1>Kotokoli – Deutsch Wörterbuch</h1>
-  <nav>
-    <a href="#woerter">Wörter</a>
-    <a href="#saetze">Sätze</a>
-  </nav>
+  <header>
+    <h1>Kotokoli – Deutsch Wörterbuch</h1>
+    <nav>
+      <a href="#woerterbuch">Wörterbuch</a>
+      <a href="#grundwortschatz">Grundwortschatz</a>
+      <a href="alphabet.html">Alphabet</a>
+    </nav>
+  </header>
 
-  <section id="woerter">
+  <section id="woerterbuch">
+    <h2>Wörterbuch</h2>
+    <p>Hier wird später ein Suchfeld für Wörter stehen.</p>
+  </section>
+
+  <section id="grundwortschatz">
     <h2>Grundwortschatz</h2>
     <div class="word-list">
       <div class="word">
@@ -57,18 +72,7 @@
         <strong>Alāfiyā</strong> – Gut / Gesundheit <br>
         <span class="category">Antwort / Befinden</span>
       </div>
-      <div class="word">
-        <strong></strong> – Ich bin / Ich heiße <br>
-        <span class="category">Vorstellung</span>
-      </div>
     </div>
-  </section>
-
-  <section id="saetze">
-    <h2>Beispielsätze</h2>
-    
-    <p><strong>Biyassɛ?</strong> – Wie geht’s dir?</p>
-  
   </section>
 
 </body>
